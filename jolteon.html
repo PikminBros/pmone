@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>you got it</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    body {
+      background-image: url("image.png");
+      background-repeat: repeat;
+      min-height: 100vh;
+      margin: 0;
+      background-size: 556px;
+      font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      /* Added white text effect to all links */
+      text-shadow: 2px 2px 0 #fff, -1px -1px 0 #fff;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .wobbly-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 20px;
+      font-weight: 900;
+      text-decoration: none;
+      color: #000;
+      text-align: center;
+      margin: 50px auto;
+      width: fit-content;
+      
+      /* Brighter, aggressive green gradient with white center */
+      background: radial-gradient(circle, #ffffff 0%, #ccffcc 30%, #00ff00 70%, #00cc00 100%);
+      
+      /* Sketchy outline */
+      border: 3px solid #000;
+      border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+      box-shadow: 
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        4px 0 0 #000,
+        -4px 0 0 #000,
+        0 4px 0 #000,
+        0 -4px 0 #000;
+      
+      transition: transform 0.1s;
+      cursor: pointer;
+      
+      /* Text styling */
+      text-shadow: 2px 2px 0 #fff, -1px -1px 0 #fff;
+    }
+
+    .wobbly-btn:active {
+      transform: scale(0.95);
+      box-shadow: 
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000;
+    }
+
+    /* Added white text effect to main content paragraphs and headers */
+    h1, p {
+      text-shadow: 2px 2px 0 #fff, -1px -1px 0 #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>jolteon</h1>
+    <nav>
+      <a href="#home">wigwam</a>
+      <!-- Changed About link to point elsewhere -->
+      <a href="about/index.html">who</a>
+      <a href="pmtwo.html">a game aboutplants made by japan's favorite gamingcompany</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <p>sparky</p>
+    <p>yippe, type in alph</p>
+  </main>
+</body>
+</html>
